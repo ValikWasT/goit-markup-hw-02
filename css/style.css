@@ -48,7 +48,9 @@ sans-serif;
     color: inherit;
 }
 
-.main-nav-active {
+.main-nav-active, 
+.main-nav:hover,
+.main-nav:focus {
     color: var(--accent);
 }
 
@@ -78,7 +80,6 @@ sans-serif;
 }
 
 .main-section-btn {
-    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -161,6 +162,11 @@ sans-serif;
     letter-spacing: 0.03em;
 }
 
+.addres:hover,
+.addres:focus {
+    color: var(--accent);
+}
+
 .addres-map {
     color: #FFFFFF;
 }
@@ -174,7 +180,6 @@ sans-serif;
 /* filter */
 
 .filter-btn {
-    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -184,6 +189,12 @@ sans-serif;
     color: var(--first-text);
     background-color: #F5F4FA;
     cursor: pointer
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+    color: #FFFFFF;
+    background-color: var(--accent);
 }
 
 .filter-btn-active {
