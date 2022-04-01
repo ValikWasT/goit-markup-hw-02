@@ -78,6 +78,8 @@ sans-serif;
 }
 
 .main-section-btn {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -96,6 +98,7 @@ sans-serif;
     background-color: #188CE8;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    cursor: pointer;
 }
 
 /* section-2 */
@@ -120,26 +123,25 @@ sans-serif;
 .about {
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
 }
 
 /* section-4 */
 
-.worker-name {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.19;
-    text-align: center;
-    letter-spacing: 0.03em;
-}
-
-.worker-job {
+.worker {
     font-size: 16px;
     line-height: 1.19; 
     text-align: center;
     letter-spacing: 0.03em;
+}
+
+.worker-name {
+    font-weight: 500;
+}
+
+.worker-job {
     color: var(--secont-text);
 }
 
@@ -165,4 +167,40 @@ sans-serif;
 
 .addres-feedback {
     color: rgba(255, 255, 255, 0.6);;
+}
+
+/* ------Portfolio------ */
+
+/* filter */
+
+.filter-btn {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--first-text);
+    background-color: #F5F4FA;
+    cursor: pointer
+}
+
+.filter-btn-active {
+    color: #FFFFFF;
+    background-color: var(--accent);
+
+}
+
+.project-name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.project-kind {
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--secont-text);
 }
