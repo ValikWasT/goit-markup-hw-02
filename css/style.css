@@ -80,7 +80,6 @@ sans-serif;
 }
 
 .main-section-btn {
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -181,7 +180,6 @@ sans-serif;
 /* filter */
 
 .filter-btn {
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -208,6 +206,7 @@ sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
+    letter-spacing: 0.06em;
 }
 
 .project-kind {
